@@ -18,7 +18,7 @@ $(function () {
                userName();
             }else if(username === Json[i].username&&password!= Json[i].password){
 				alert("该用户名已被使用，请重新修改")
-			}else if{
+			}else{
 				 $.ajax({
                     url: "json/package.json",
                     type: "POST",
