@@ -2,14 +2,13 @@ var Json;
 var username;
 var password;
 $(function (){
-
     $.getJSON("json/package.json", function (data) {
         Json = data;
     });
     $("#btn1").click(function () {
         username=$(".number").val();
          password=$(".password").val();
-        if(username<=0||password<=0){
+        if(username.length<=0||password.length<=0){
             alert("用户名、密码或关键词不能为空")
             reset1()
         }
