@@ -1,0 +1,61 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#denglu{
+	width: 400px;
+	height: 200px;
+	background-image: url("images/2.png");
+	position:absolute;
+	left:50%;    /* 定位父级的50% */
+	top:50%;
+	transform: translate(-50%,-50%); /*自己的50% */
+}
+.number,.password,.keyword{
+	width: 70%;
+	position: absolute;
+	left: 4%;
+}
+h2{
+	text-align: center;
+}
+.zhuce{
+	position: absolute;
+	right: 2%;
+}
+#btn1,#btn3{
+	position: absolute;
+	left: 30%;
+}
+#btn2{
+	position: absolute;
+	right: 30%;
+}
+.number1,.password1,.keyword1{
+	width: 70%;
+	position: absolute;
+	left: 13%;
+}
+
+#chat1{
+	width: 700px;
+	height: 600px;
+	background: url("images/2.png") no-repeat;
+	background-size:100% 100%;
+	position:absolute;
+	left:50%;    /* 定位父级的50% */
+	top:50%;
+	transform: translate(-50%,-50%); /*自己的50% */
+}
+
+#chatbox{
+
+}
+#teInput{
+	width: 300px;
+}
